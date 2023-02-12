@@ -5,9 +5,7 @@
         "version" : "2.0"
     },
     "extensionsUsed" : [
-        "KHR_materials_transmission",
-        "KHR_materials_specular",
-        "KHR_materials_ior"
+        "KHR_materials_transmission"
     ],
     "scene" : 0,
     "scenes" : [
@@ -30,16 +28,6 @@
             "extensions" : {
                 "KHR_materials_transmission" : {
                     "transmissionFactor" : 1
-                },
-                "KHR_materials_specular" : {
-                    "specularColorFactor" : [
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                "KHR_materials_ior" : {
-                    "ior" : 31.099998474121094
                 }
             },
             "name" : "Glass",
@@ -48,9 +36,10 @@
                     1,
                     1,
                     1,
-                    0.30000001192092896
+                    1
                 ],
-                "roughnessFactor" : 0.0736842080950737
+                "roughnessFactor" : 0,
+                "metallicFactor": 0.1
             }
         }
     ],
