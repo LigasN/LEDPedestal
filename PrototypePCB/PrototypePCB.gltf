@@ -1,5 +1,6 @@
 {
     "asset" : {
+        "copyright" : "Norbert Ligas https://github.com/LigasN",
         "generator" : "Khronos glTF Blender I/O v3.4.50",
         "version" : "2.0"
     },
